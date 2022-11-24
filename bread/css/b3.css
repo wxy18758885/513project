@@ -1,0 +1,160 @@
+body{
+    background-color: bisque;
+}
+.menu{
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu ul
+{
+    display: inline-block;
+    padding: 0em 2em;
+    text-align: center;
+    font-size:30px ;
+}
+
+.menu li
+{
+    display: inline-block;
+}
+
+.menu li a, #menu li span
+{
+    display: inline-block;
+    padding: 0em 1.0em;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 40px;
+    outline: 0;
+    color: rgb(119, 81, 0);
+    
+}
+
+.menu li:hover a, #menu li.active a, #menu li.active span
+{
+    background: rgb(249, 229, 167);
+    color: #CC3399;
+}
+.active{
+    background: #fdd7aa;
+}
+
+
+
+
+.logo{
+    height: 200px;
+	background: #fdd7aa;
+	font-family: 'Questrial', sans-serif;
+	font-size: 12pt;
+	color: rgba(207, 125, 3, 0.6);
+    margin-bottom: 50px;
+}
+
+
+
+
+.logo img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    
+
+}
+.logo h1{
+    font-size: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.middletop{
+	margin-top: 160px;
+	padding-top: 235px;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+
+.middletop p{
+	text-align: center;
+	width: 95%;
+	background-color: bisque;
+	font-size: 43px;
+	font-weight: 600;
+	
+	
+	
+}
+.middle{
+	margin-top: 80px;
+	padding-left: 10%;
+    padding-right: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	
+}
+.middle .tu h1{
+	text-shadow: #f8cd99;
+	
+}
+h2{
+	font-size: 35px;
+	text-align: center;
+}
+.middle .p1{
+	font-size: 25px;
+}
+.middle img{
+	width: 400px;
+	height: 350px;
+	margin-right: 0%;
+}
+.bottom{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	
+	
+}
+
+
+
+.footer{
+    
+	background: #f8cd99;
+	
+	color: rgba(0,0,0,.6);
+    display: flex;
+
+    flex-direction: column;
+
+}
+.db{
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer .wz{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer img{
+    margin-top: 20px;
+    width: 180px;
+    height: 180px;
+}
+
+.footer p{
+    text-align: center;
+    
+}
